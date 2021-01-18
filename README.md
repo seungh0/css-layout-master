@@ -60,3 +60,19 @@
 ### align-content vs align-items
 
 - align-content 는 줄 사이의 간격을 결정하는 반면, align-items 는 전체 항목이 컨테이너 내에서 정렬되는 방식을 결정합니다. 한 줄만 있으면 align-content 가 효과가 없습니다.
+
+### flex-grow, flex-shrink
+
+- child 에게 줄 수 있는 property.
+
+#### flex-shrink
+
+- 기본적으로 element의 행동을 정의함.
+- 화면에 꽉 찰 경우 (공간이 부족할 경우), 얼마나 찌그러질지
+- default: 1
+- flex-shrink: 2 => 1/2의 길이로 쭐어듬
+
+#### flex-grow
+
+- 남아있는 공간을 가져가는 비율.
+- default: 0
