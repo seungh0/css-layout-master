@@ -76,3 +76,7 @@
 
 - 남아있는 공간을 가져가는 비율.
 - default: 0
+
+### flex-basis
+
+- flex-grow 되지 않았을 경우, 기본 main axis

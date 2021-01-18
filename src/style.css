@@ -1,12 +1,13 @@
 .parent {
   display: flex;
+  width: 100vw;
   height: 100vh;
   justify-content: space-around;
   align-content: center;
 }
 
 .child {
-  height: 200px;
+  flex-basis: 30%;
   background: peru;
   color: white;
   font-size: 50px;
@@ -17,11 +18,6 @@
 
 .child:nth-child(2) {
   background: #000;
-  /* flex-shrink: 2; */
-  flex-grow: 2;
-}
-
-.child:nth-child(3) {
   /* flex-shrink: 2; */
   flex-grow: 1;
 }
