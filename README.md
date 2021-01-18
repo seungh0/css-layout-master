@@ -48,11 +48,15 @@
 
 #### align-self
 
-- children 에게 줄 수 있는 property 1.
+- children 에게 줄 수 있는 property
 - cross axis (like align items)
 
 #### order
 
 - default -> order: 0
-- children 에게 줄 수 있는 property 2.
+- children 에게 줄 수 있는 property
 - 세개중 만약 가운데를 order:1 로 지정하면 order -> (0, 0, 1)로 마지막으로 가짐.
+
+### align-content vs align-items
+
+- align-content 는 줄 사이의 간격을 결정하는 반면, align-items 는 전체 항목이 컨테이너 내에서 정렬되는 방식을 결정합니다. 한 줄만 있으면 align-content 가 효과가 없습니다.
