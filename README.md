@@ -38,8 +38,21 @@
 - flex-direction: column
   <img src="https://mdn.mozillademos.org/files/15615/Basics2.png">
 
-- justify-content
-  - main-axis
-- align-items
+#### justify-content
 
-  - cross axis
+- main-axis
+
+#### align-items
+
+- cross axis
+
+#### align-self
+
+- children 에게 줄 수 있는 property 1.
+- cross axis (like align items)
+
+#### order
+
+- default -> order: 0
+- children 에게 줄 수 있는 property 2.
+- 세개중 만약 가운데를 order:1 로 지정하면 order -> (0, 0, 1)로 마지막으로 가짐.
