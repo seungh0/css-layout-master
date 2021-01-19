@@ -1,9 +1,10 @@
 .parent {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  justify-content: space-around;
-  align-content: center;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px 300px;
+  gap: 10px;
+  /* column-gap: 10px;
+  row-gap: 10px; */
 }
 
 .child {
@@ -14,10 +15,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.child:nth-child(2) {
-  background: #000;
-  /* flex-shrink: 2; */
-  flex-grow: 1;
 }
