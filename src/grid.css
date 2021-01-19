@@ -4,7 +4,7 @@
   grid-template-rows: 100px 50px 300px;
   gap: 10px;
   /* column-gap: 10px;
-  row-gap: 10px; */
+    row-gap: 10px; */
 }
 
 .child {
