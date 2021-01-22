@@ -4,13 +4,13 @@
   height: 250vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(4, 100px);
-  /* justify-content: center;
-  align-content: space-between; */
-  place-content: space-between center;
 }
 
 .header {
   background-color: #2ecc71;
+  /* align-self: end;
+  justify-self: center; */
+  place-self: end center;
 }
 
 .content {
